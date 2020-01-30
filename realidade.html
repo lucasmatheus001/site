@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="charset" content="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Começo de um Layout responsivo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+		#gambe{
+			padding-left: 0px!important;
+			padding-right: 0px!important;
+		}
+		#tere{
+			background-color: #f4f4f4;
+		}
+		#baby{
+			overflow: center;
+			background-position: center;
+		}
+		img.displayed {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto }
+		
+		@media screen and (max-width: 576px){
+		.d-flex{
+				padding-left: 0px;
+				padding-right: 0px;z
+
+			}
+
+	</style>
+</head>
+<body>
+		<div class="col-sm-12 col-xs-12" id="gambe">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mud" style="margin:0;">
+			    <a href="index.html" class="navtech"><h2>TECHCENTRAL</h2></a>
+			    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar"> 
+			        <ul class="navbar-nav ">
+			              <!-- Dropdown -->
+			            <li class="nav-item">
+			                <a class="nav-link" href="index.html">HOME</a>
+			            </li>
+			            <li class="nav-item dropdown">
+			            	<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Categorias</a>
+			            	<div class="dropdown-menu" id="corr">
+				              <a class="dropdown-item" href="seguranca.html">Segurança</a>
+				              <a class="dropdown-item" href="impressao.html">Técnologias e inovações</a>
+				              <a class="dropdown-item" href="robotica.html">Robotica</a>
+				            </div>
+				        </li>
+				        <li class="nav-item">		        	
+				            <a class="nav-link" href="ult.html">Últimas noticias</a>
+				        </li>
+				        <li class="nav-item">
+				            <a class="nav-link" href="sobre.html">Sobre</a>
+				        </li>	
+				    </ul>
+				</div>
+			</nav>
+		</div>
+	<div class="container-fluid" id="tere">
+		<div id="tere">
+		<div class="row" id="rowc">
+			<div class="col-sm-12 col-xs-12 d-flex">
+				<div class="d-flex flex-column w-100" id="cc1">
+					<div class="flex1">
+						<h2 id="tit">REALIDADE AUMENTADA</h2>
+						<h5 id="tit2">"OASYS" está chegando?, 19 de setembro de 2018</h5>
+				          <img src="img/realidade.jpg" class="img-fluid" width="auto" height="auto" id="esp">
+				        <p id="fonte">É impossível que objetos reais interajam com objetos virtuais, ou vice-versa, certo? Errado! Dê as boas vindas a uma tecnologia que já começou a revolucionar a maneira como o ser humano interage com as máquinas (e as máquinas com o ser humano): a Realidade Aumentada, ou (RA). Não se preocupe: ainda estamos longe de acontecimentos como os ilustrados em filmes como Matrix e Exterminador do Futuro, se é que eles serão possíveis algum dia. No momento, as máquinas estão ganhando mais “personalidade”, mas isso só significa que elas estão cada vez mais cordiais e responsivas às ações humanas.De uma forma simples, Realidade Aumentada é uma tecnologia que permite que o mundo virtual seja misturado ao real, possibilitando maior interação e abrindo uma nova dimensão na maneira como nós executamos tarefas, ou mesmo as que nós incumbimos às máquinas. Assim, se você pensava que objetos pulando para fora da tela eram elementos de filmes de ficção científica, está na hora de mudar seus conceitos. Aliás, o que acontece com a Realidade Aumentada é o contrário: você pulará para dentro do mundo virtual para interagir com objetos que só estão limitados à sua imaginação.</p>
+				        <h4 id="marg" >De onde veio isso?</h4>
+				        <p id="fonte">Resumidamente, a Realidade Aumentada teve sua origem em algo muito simples: etiquetas. Os códigos de barras não estavam mais cumprindo com perfeição a tarefa de carregar todas as informações que se queria obter através de sua leitura. Por isso, foram criados os códigos 2D (duas dimensões), que permitiam o armazenamento de muito mais informação do que os códigos de barras. O que isso tem a ver com a Realidade Aumentada? Tudo! Os códigos bidimensionais são justamente os responsáveis pela possibilidade de projetar objetos virtuais em uma filmagem do mundo real, melhorando as informações exibidas, expandindo as fronteiras da interatividade e até possibilitando que novas tecnologias sejam utilizadas, bem como as atuais se tornem mais precisas. A Realidade Aumentada é utilizada combinando-se um código de duas dimensões com um programa de computador.</p>
+				        <h4 id="marg">Como funciona?</h4>
+				        <p id="fonte">Três componentes básicos são necessários para a existência da Realidade Aumentada:
+				          <ol id="fonte1" >
+				            <li >Objeto real com algum tipo de marca de referência,que possibilite a interpretação e criação do objeto virtual;</li>
+				            <li>Câmera ou dispositivo capaz de transmitir a imagem do objeto real;</li>
+				            <li>Software capaz de interpretar o sinal transmitido pela câmera ou dispositivo.</li>
+				          </ol>
+				        </p>
+				        <p id="fonte">O processo de formação do objeto virtual é o seguinte:
+				          <ol id="fonte1">
+				            <li>Coloca-se o objeto real em frente à câmera, para que ela capte a imagem e transmita ao equipamento que fará a interpretação.</li>
+				            <li>A câmera “enxerga” o objeto e manda as imagens, em tempo real, para o software que gerará o objeto virtual.</li>
+				            <li>O software já estará programado para retornar determinado objeto virtual, dependendo do objeto real que for mostrado à câmera.</li>
+				            <li>O dispositivo de saída (que pode ser uma televisão ou monitor de computador) exibe o objeto virtual em sobreposição ao real, como se ambos fossem uma coisa só.</li>
+				          </ol>
+				        </p>
+				        <p id="fonte">Em outras palavras, o software de Realidade Aumentada é programado com imagens, sinais ou ações pré-definidas e as respostas que deverão ser dadas a elas. Quando o programa recebe essas informações, ele as interpreta e exibe a resposta, que pode ser desde uma simples forma geométrica até pode ser desde uma simples forma geométrica até objetos mais complexos, como animais que reagem a um carinho na barriga.</p>
+				        <h4 id="marg">Aplicações</h4>
+				        <p id="fonte">A Realidade Aumentada não tem limite de aplicações. Ela pode ser usada no entretenimento, para criação de jogos muito mais interativos do que os já existentes; melhoria de processos da medicina, como cirurgiasremotas, nas quais o médico pode estar a quilômetros de distância do paciente; indústria automobilística, facilitando a manutenção do carro pelo próprio dono, através de manuais de instrução interativos; além de milhares de outras alternativas que provavelmente ainda veremos serem criadas. Você deve se lembrar dos “tamagochis”, ou bichinhos virtuais, como também eram chamados. Os pequenos aparelhos fizeram a cabeça de milhões de adolescentes nos anos 1990. Depois de pouco tempo, eles simplesmente desapareceram sem dar lugar a eles simplesmente desapareceram sem dar lugar a um sucessor. Mas os fãs desse tipo de brinquedo podem esperar um novo lançamento. A Sony, gigante do mundo dos eletrônicos e do entretenimento, tem o lançamento de um bicho virtual chamado EyePet, ainda para o ano de 2009.</p>
+				        <h4 id="marg">Onde ela circula?</h4>
+				        <p id="fonte">Não pense que somente a indústria do entretenimento ganhará com o aperfeiçoamento da tecnologia de Realidade Aumentada. Em um próximo estágio no desenvolvimento da tecnologia, outras indústrias, e até mesmo o comércio, poderão tirar vantagem das facilidades da RA. Se você estiver em uma loja qualquer, por exemplo, e uma pessoa passar do lado de fora, a vitrine poderá mostrar o modelo, o preço e os tamanhos disponíveis da roupa que a pessoa estiver vestindo.</p>
+				        <h4 id="marg">Infinitas possibilidades</h4>
+				        <p id="fonte">A Realidade Aumentada ainda está em uma fase inicial de desenvolvimento, mas aplicações incríveis já foram criadas para ela. Imagine poder abrir um livro qualquer e assistir à batalha do bandido contra o mocinho, naquela história épica e sangrenta. Nenhum monitor seria necessário, pois o livro viria com óculos especiais que criariam as imagens diante dos seus olhos, a cada nova página aberta. Ou ainda, suponha que você comprou o carro dos seus sonhos, mas não tem a menor ideia da quantidade de recursos que o veículo possui. A Realidade Aumentada permitiria que objetos virtuais fossem colocados na sua frente e dessem as instruções que você deveria seguir para mexer no complexo funcionamento do automóvel. Como a Realidade Aumentada ainda está chegando ao mercado, você ainda poderá encontrar muitas ideias em processo de desenvolvimento.</p>
+				 		<img src=img/imp1.jpg id="baby" class="img-fluid displayed" ></img>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="rowc">
+			<div class="col-sm-12 col-xs-12 d-flex">
+				<div class="d-flex flex-column w-100 " id="cc1">
+					<div class="flex1">
+						<h2 id="margin">Videos relacionados</h2>
+			            <iframe width="350px" height="315px" src="https://www.youtube.com/embed/p0P6L_rj6Gc" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			            <iframe width="350px" height="315" src="https://www.youtube.com/embed/KzA97Yzqajc" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			            <iframe width="350px" height="315" src="https://www.youtube.com/embed/c6Bfpa-Oewg" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 jumbotron text-center" id="rodape" style
+			="margin-bottom:0">
+				<a href="https://www.facebook.com/Tech-Central-277351642919400/"><img src="redesociais/facebook.svg" width="40px" height="40px"></img></a>
+			    <a href="https://plus.google.com/u/0/109596574915060910687"><img src="redesociais/google-plus.svg" width="40px" height="40px"></img></a>
+			    <a href="https://twitter.com/TECHCENTRAL11"><img src="redesociais/twitter.svg" width="40px" height="40px"></img></a>
+			    <a href="https://www.youtube.com/channel/UCGSKVTWd67GUbrCmyMQ2h0w"><img src="redesociais/youtube.svg" width="40px" height="40px"></img></a>
+			    <p class="c-contentinfo__copyright" id="fontef"><small>© 2017-2018 - TECHCENTRAL - Todos os direitos reservados </small></p>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

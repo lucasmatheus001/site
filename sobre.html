@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="charset" content="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Começo de um Layout responsivo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/freelancer.min.css">
+	<link rel="stylesheet" type="text/css" href="css/freelancer.css">
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+
+		#gambe{
+			padding-left: 0px!important;
+			padding-right: 0px!important;
+		}
+		#tere{
+			background-color: #f4f4f4;
+		}
+		#baby{
+			overflow: center;
+			background-position: center;
+		}
+		img.displayed {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto }
+	    .flex-row{
+			flex: 1 0 auto;
+		}
+		#nn{
+			margin-left: 0px!important;
+		}
+		#mm{
+			margin-left: 0px!important;
+			margin-top: 20px;
+		}
+		#mmd{
+			font-weight: 700!important;
+		    font-family: Montserrat!important;
+		}/*imagem sobre*/
+		img.displayed {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto }
+		#m1{
+			display: block;
+			margin-top: 40px;
+		    margin-left: -20px;
+		    margin-right: auto; 
+		}
+		#mm1{
+			margin-top:-24px;
+			margin-left: 10px;
+		}
+		/*traco*/
+		#traco{
+			max-width: 15rem;
+		    padding: 0;
+		    text-align: center;
+		    border: none;
+		    border-top: solid 0.25rem;
+		    margin-top: 2.5rem;
+		    margin-bottom: 2.5rem;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+		#rodape{
+			margin-top: 0px;
+		}
+		#mud{
+			margin-left: 0px!important;
+			margin-right: 0px!important;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		#tira{
+			margin-right: 0px!important;
+			margin-left: 0px!important;
+			padding-left: 0px!important;
+			padding-right: 0px!important;
+		}
+		.bg-primary{
+			background-color: #060606!important;
+		}
+		hr.star-light:after {
+		    color: #fff;
+		    background-color: #060606!important;
+		}
+		.lead{
+			text-align: justify;
+		}
+		@media screen and (max-width: 576px){
+		.d-flex{
+				padding-left: 0px;
+				padding-right: 0px;
+
+			}
+			#ct{
+				padding-left: 70px;
+			}
+			#traco{
+				max-width: 100rem;
+				margin-top: auto;
+			}
+			@media screen and (max-width: 768px){
+				#ct{
+					padding-left: 70px;
+				}
+			}
+
+	</style>
+</head>
+<body>
+	<div class="container-fluid" id="tira">
+		<div class="col-12 col-lg-block" id="gambe">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mud" style="margin:0;">
+			    <a href="index.html" class="navtech"><h2>TECHCENTRAL</h2></a>
+			    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapSse navbar-collapse  justify-content-center" id="collapsibleNavbar"> 
+			        <ul class="navbar-nav ">
+			              <!-- Dropdown -->
+			            <li class="nav-item">
+			                <a class="nav-link" href="novos.html">HOME</a>
+			            </li>
+			            <li class="nav-item dropdown">
+			            	<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Categorias</a>
+			            	<div class="dropdown-menu" id="corr">
+				              <a class="dropdown-item" href="seguranca.html">Segurança</a>
+				              <a class="dropdown-item" href="impressao.html">Técnologias e inovações</a>
+				              <a class="dropdown-item" href="robotica.html">Robotica</a>
+				            </div>
+				        </li>
+				        <li class="nav-item">		        	
+				            <a class="nav-link" href="ult.html">Últimas noticias</a>
+				        </li>
+
+				        <li class="nav-item">
+				            <a class="nav-link" href="sobre.html">Sobre</a>
+				        </li>
+				    </ul>
+				</div>
+			</nav>
+		</div>
+	
+		<section class="bg-primary text-white mb-0" id="about">
+	      <div class="container">
+	        <h2 class="text-center text-uppercase text-white" id="mmd">Sobre Nós</h2>
+	        <hr class="star-light mb-5">
+	        <div class="row">
+	          <div class="col-lg-6 ml-auto">
+	            <p class="lead"> O Techcentral é um site que busca te informar sobre os novos tipos de tecnológia em desenvolvimento pelo mundo, desde inovações peculiares, até as mais revolucionárias. </p>
+	          </div>
+	          <div class="col-lg-6 mr-auto">
+	            <p class="lead">O mundo sempre está em desevolvimento e este site vai tentar lhe proporcionar um pouco de conhecimento sobre o que de novo está surgindo. </p>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+		<section class="bg-primary text-white mb-0" id="about">
+	      <div class="container">
+	        <h2 class="text-center text-uppercase text-white" id="mmd">Fale conosco</h2>
+	        <hr class=" mb-5" id="traco">
+	        <div class="row">
+	          <div class="col-lg-3 ml-auto" >
+	            <img src="img/BRANCO.png" class=" displayed img-fluid" id="robo" width="200px" height="200px"></img>
+	          </div>
+	          <div class="col-lg-3 mr-auto" id="ct" >
+	            <img src="redesociais/local.png" width="20px" height="20px" id="m1"></img><p class="lead" id="mm1">Rua Barão chagas cunha</p>
+	          </div>
+	          <div class="col-lg-3 mr-auto" id="ct">
+	          	<img src="redesociais/tele.png" width="20px" height="20px" id="m1"></img>
+	            <p class="lead" id="mm1">+55 (86)98856-6034</p>
+	          </div>
+	          <div class="col-lg-3 mr-auto" id="ct">
+	          	<img src="redesociais/msg.png" width="20px" height="20px" id="m1"></img>
+	            <p class="lead" id="mm1">techcentral@gmail.com </p>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+
+		
+		<div class="row" id="tira">
+			<div class="col-12 jumbotron text-center" id="rodape" style
+			="margin-bottom:0">
+				<a href="https://www.facebook.com/Tech-Central-277351642919400/"><img src="redesociais/facebook.svg" width="40px" height="40px"></img></a>
+			    <a href="https://plus.google.com/u/0/109596574915060910687"><img src="redesociais/google-plus.svg" width="40px" height="40px"></img></a>
+			    <a href="https://twitter.com/TECHCENTRAL11"><img src="redesociais/twitter.svg" width="40px" height="40px"></img></a>
+			    <a href="https://www.youtube.com/channel/UCGSKVTWd67GUbrCmyMQ2h0w"><img src="redesociais/youtube.svg" width="40px" height="40px"></img></a>
+			    <p class="c-contentinfo__copyright" id="fontef"><small>© 2017-2018 - TECHCENTRAL - Todos os direitos reservados </small></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="charset" content="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Começo de um Layout responsivo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+		div{
+
+			border: 1px solid #000;
+			min-height: 100px;
+		}
+		#rowConteudo{
+			min-height: 400px;
+		}
+		.flex-row{
+			flex: 1 0 auto;
+		}
+		#c1{
+			background-color: #aa00ff;
+
+		}
+		#c2{
+			background-color: #aaa;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row justify-content-between">
+			<div class="col-3">
+				Coluna 1
+			</div>
+			<div class="col-6">
+				Coluna 2
+			</div>
+		</div>
+		<div class="row" id="rowConteudo">
+			<div class="col-sm-9 col-xs-12 d-flex" id="c1">
+				<div class="d-flex flex-row ">
+					<div class="flex-row">
+						Primeiro
+					</div>
+					<div class="flex-row">
+						Segundo
+					</div>
+					<div class="flex-row">
+						Terceiro
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 d-none d-sm-block " id="c2">
+				<div class="d-flex flex-column w-100">
+					<div>
+						Primeirão
+					</div>
+					<div class="flex-row">
+						Segundão
+					</div>
+					<div class="flex-row">
+						Terceirão
+					</div>
+					<div class="flex-row">
+						Quartão
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				Rodapé
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="charset" content="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Começo de um Layout responsivo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+		#gambe{
+			padding-left: 0px!important;
+			padding-right: 0px!important;
+		}
+		#tere{
+			background-color: #f4f4f4;
+		}
+		#baby{
+			overflow: center;
+			background-position: center;
+		}
+		img.displayed {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto }
+		
+		@media screen and (max-width: 576px){
+		.d-flex{
+				padding-left: 0px;
+				padding-right: 0px;z
+
+			}
+
+	</style>
+</head>
+<body>
+		<div class="col-sm-12 col-xs-12" id="gambe">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mud" style="margin:0;">
+			    <a href="index.html" class="navtech"><h2>TECHCENTRAL</h2></a>
+			    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar"> 
+			        <ul class="navbar-nav ">
+			              <!-- Dropdown -->
+			            <li class="nav-item">
+			                <a class="nav-link" href="index.html">HOME</a>
+			            </li>
+			            <li class="nav-item dropdown">
+			            	<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Categorias</a>
+			            	<div class="dropdown-menu" id="corr">
+				              <a class="dropdown-item" href="seguranca.html">Segurança</a>
+				              <a class="dropdown-item" href="impressao.html">Técnologias e inovações</a>
+				              <a class="dropdown-item" href="robotica.html">Robotica</a>
+				            </div>
+				        </li>
+				        <li class="nav-item">		        	
+				            <a class="nav-link" href="ult.html">Últimas noticias</a>
+				        </li>
+				        <li class="nav-item">
+				            <a class="nav-link" href="sobre.html">Sobre</a>
+				        </li>	
+				    </ul>
+				</div>
+			</nav>
+		</div>
+	<div class="container-fluid" id="tere">
+		<div id="tere">
+		<div class="row" id="rowc">
+			<div class="col-sm-12 col-xs-12 d-flex">
+				<div class="d-flex flex-column w-100" id="cc1">
+					<div class="flex1">
+						<h2 id="tit">Redes 5G</h2>
+						<h5 id="tit2">Os limites de internet sendo quebrado, 7 de outubro de 2018</h5>
+				          <img src="img/5g.jpeg" class="img-fluid" width="auto" height="auto" id="esp">
+				        <p id="fonte">A Mobile World Congress é palco de apresentações
+							de smartphones de última geração, planos futuros
+							de grandes empresas de telecomunicações e
+							novidades em tecnologias que estão onipresentes na
+							nossa rotina. Entretanto, o tema que mais insistia em
+							aparecer em Barcelona era o 5G: uma única olhada
+							para o lado era suficiente para encontrar algum
+							estande com o termo 5G piscando na minha cara.
+						</p>
+						<p id="fonte">E isso é estranho se você pensar que o 4Gainda
+							engatinha em cobertura em boa parte do mundo, o 5G
+							nem sequer tem padrão estabelecido e as primeiras
+							redes móveis comerciais de quinta geração só devem
+							aparecer em 2020.
+							O 5G está definido para ser a quinta geração de banda
+							larga sem fio padronizada em larga escala. Para
+							expressar isso de forma um pouco mais flexível, é o
+							que conectará seu smartphone e outros dispositivos
+							inteligentes à Internet quando você não estiver usando
+							o Wi-Fi no futuro.
+						</p>
+				        <h4 >Quanto mais rápido é 5G em relação ao 4G?</h4>
+				        <p id="fonte">Espera-se que o 5G ofereça velocidades de dados até
+							50 ou 100 vezes mais rápidas que as atuais redes 4G.
+							Enquanto o 4G atualmente oferece um throughput
+							máximo teórico de até cerca de 1gbps, a maioria dos
+							usuários diários alcança uma média de 33,76Mbps.
+							<br>
+							Em comparação, quando eles finalmente chegarem,
+							espera-se que as redes 5G ofereçam velocidades de
+							até dez gigabytes por segundo. Mesmo se você estiver
+							experimentando um nível comparável de queda com
+							5G durante o uso diário, isso ainda representará um
+							enorme avanço nas velocidades de conectividade.
+							<br>
+							Um relatório emitido pela GSMA em 2014 destacou
+							oito critérios que uma conexão 5G deve cumprir. São
+							eles:
+							<br>
+							1. Conexões de 1 a 10 Gbps<br>
+							2. Um atraso de ida e volta de ponta a ponta em
+							milissegundos<br>
+							3. Largura de banda de 1000x por unidade de área<br>
+							4. 10 a 100 vezes mais dispositivos conectados<br>
+							5. (Percepção de) 99,999 por cento de disponibilidade<br>
+							6. (Percepção de) 100 por cento de cobertura<br>
+							7. Redução de 90% no uso de energia da rede<br>
+							8. Até dez anos de duração da bateria para<br>
+							dispositivos do tipo máquina de baixa potência<br>
+						</p>
+						<h4>Quais produtos usarão 5G?</h4>
+				        <p id="fonte">Embora os smartphones provavelmente sejam os
+							principais portadores da 5G como, eles estão longe de
+							ser o único dispositivo que usará a rede. É esperado
+							que tablets, carros conectados, drones, headsets de
+							realidade virtual, wearables e infraestrutura de cidaderealidade virtual, wearables e infraestrutura de cidade
+							inteligente desempenhem um papel em nosso futuro
+							5G coletivo.<br>
+							No Mobile World Congress deste ano, a Intel exibiu um
+							conceito de PC 2 em 1 e disse que eles trabalharão
+							com OEMs como Dell, HP e Lenovo para desenvolver
+							PCs portáteis que sejam compatíveis com 5G.
+							Espere que outros fornecedores compartilhem mais
+							sobre dispositivos 5G nos próximos anos.<br>
+						</p>
+						<h4>Qual a boa notícia nisso?</h4>
+						<p id="fonte">Enquanto o 4G LTE permite que os usuários de
+							dispositivos móveis navegassem na Web de maneira
+							eficaz e usassem aplicativos habilitados para a Web
+							em trânsito, o 5G é uma questão de colocar em ação
+							essa capacidade ao máximo.
+							No futuro, espera-se que as dietas de dados dos
+							usuários móveis não aumentem apenas, mas que o
+							aumento da dependência de dispositivos conectados
+							também exija que esse acesso à rede seja entregue
+							mais rápido do que o 4G pode permitir atualmente. É aí
+							que se espera que o 5G entre e tome as rédeas.<br>
+							Simplificando: o 5G promete oferecer uma cobertura
+							melhor, velocidades significativamente mais rápidas
+							e permitir dispositivos mais responsivos que podem
+							permanecer conectados constantemente entre si.permanecer conectados constantemente entre si.
+							<br>
+						</p>
+						<h4>Quanto vai custar o 5G?</h4>
+						<p id="fonte">Embora, aparentemente, todos na área de tecnologia
+							tenham muitas coisas interessantes a dizer sobre
+							o que a 5G permitirá, muito pouco é realmente
+							conhecido sobre o quanto essa atualização
+							custará aos usuários finais ou provedores de
+							telecomunicações - direta ou indiretamente.<br>
+							Na frente do hardware, não se sabe se os
+							componentes necessários para fazer uso do 5G serãocomponentes necessários para fazer uso do 5G serão
+							ou não caros para os clientes, ou se essa despesa
+							extra é algo que os fornecedores procurarão subsidiar
+							ou não de outras formas.<br>
+							Do lado dos serviços, não é muito claro quanto
+							custará os planos de conexão 5G em relação aos seus
+							homólogos 4G.<br>
+							No entanto, os especialistas não esperam um
+							aumento enorme no custo dos dados à medida que
+							mudamos de redes 4G para 5G.<br>
+							A diretora de operações da Telstra, Robyn Denholm,
+							disse no Mobile World Congress deste ano que "não
+							há dúvida de que o 5G nos permitirá reduzir o custo do
+							tráfego". "Do ponto de vista do consumidor, isso deve
+							permitir preços de dados mais baratos", disse ele.<br>
+							Dito isso, você provavelmente precisará comprar
+							um novo telefone para usar redes 5G. A maioria
+							dos aparelhos modernos é equipado com hardware
+							projetado para redes 4G e não poderá usar o 5G fora
+							da caixa.<br>
+							Dado que o lançamento de redes 5G será um processo
+							desigual e gradual, provavelmente não valerá a pena
+							correr e comprar um novo telefone especificamente
+							para dar o salto para 5G. No entanto, a partir de 2020,
+							a maioria dos telefones provavelmente virá com
+							conectividade 5G como padrão, da mesma forma queconectividade 5G como padrão, da mesma forma que
+							a conectividade 4G é hoje em dia.<br>
+							A maioria dos grandes fabricantes confirmou planos
+							para construir smartphones que incorporem o modem
+							5G da Qualcomm, incluindo OPPO, Lenovo, Vivo,
+							Motorola, Xiaomi, OnePlus, Sony e Nokia.<br>
+							Enquanto isso, a Huawei planeja usar seu próprio
+							modem de 5G para seus dispositivos. Rumores dizem
+							que a Huawei está se preparando para lançar seu
+							primeiro smartphone 5G no final de 2019.<br>
+							A Samsung, por sua vez, trabalha de forma mais
+							reservada. Até agora, a empresa lançou apenas dicas
+							sobre suas próprias capacidades de 5G na CES e no
+							MWC deste ano.<br>
+							 Alguns relatórios indicaram que eles
+							estão olhando para incorporar conectividade 5G no
+							smartphone Galaxy S10 carro-chefe do próximo ano.
+							Em termos dos custos de infraestrutura mais amplos
+							do 5G, o custo também deve ser bem alto.<br>
+							No exterior, algumas estimativas sugerem que os
+							custos de infraestrutura da atualização 5G da Europa
+							podem variar de € 300 bilhões a € 500 bilhões. O fato é
+							que 5G está chegando, mas não será barato.<br>
+						</p>
+						<h4>Quando o 5G chegará?</h4>
+						<p id="fonte">Era esperado que a 5G chegasse já em 2020. NoEra esperado que a 5G chegasse já em 2020. No
+						entanto, com a certificação da primeira especificação
+						oficial de 5G da 3GPP no ano passado, as operadoras
+						em todo o mundo estão atualmente se preparando
+						para construir e implantar redes 5G já em 2019.<br>
+						Na Austrália, a Telstra começou a realizar testes em
+						2016, realizou a primeira chamada de dados 5G ao
+						ar livre em 26GHz em 2017 e lançou seu Centro de
+						Inovação 5G na Gold Coast em 2018. A operadora
+						informou na MWC que está no caminho certo para
+						lançar um 5G rede em 2019.<br>
+						Enquanto isso, a Optus diz que planeja começar a
+						implantar sua própria rede 5G em todo o país no
+						início de 2019 com uma oferta fixa sem fio em “áreas
+						metropolitanas chave”.<br>
+						A operadora começou a conduzir testes de 5G com
+						a Nokia no final de 2016 e com a Huawei em 2017.
+						No Brasil, a Huawei promete os primeiros testes
+						comerciais no segundo semestre de 2019.<br>
+						A Vodafone também realizou vários testes 5G em
+						2016, mas ainda não fez promessas específicas
+						nem oferece um cronograma para quando oferecerá
+						serviços 5G aos seus clientes.<br>
+						A TPG também deverá incorporar o 5G em seu
+						portfólio. No entanto, detalhes específicos ou planos
+						ainda precisam ser detalhados pela empresa.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="rowc">
+			<div class="col-sm-12 col-xs-12 d-flex">
+				<div class="d-flex flex-column w-100 " id="cc1">
+					<div class="flex1">
+						<h2 id="margin">Videos relacionados</h2>
+			            <iframe width="350" height="315" src="https://www.youtube.com/embed/BNGhGBPt95Y" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			            <iframe width="350" height="315" src="https://www.youtube.com/embed/2DG3pMcNNlw" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			            <iframe width="350" height="315" src="https://www.youtube.com/embed/bub2iCRkyLE" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 jumbotron text-center" id="rodape" style
+			="margin-bottom:0">
+				<a href="https://www.facebook.com/Tech-Central-277351642919400/"><img src="redesociais/facebook.svg" width="40px" height="40px"></img></a>
+			    <a href="https://plus.google.com/u/0/109596574915060910687"><img src="redesociais/google-plus.svg" width="40px" height="40px"></img></a>
+			    <a href="https://twitter.com/TECHCENTRAL11"><img src="redesociais/twitter.svg" width="40px" height="40px"></img></a>
+			    <a href="https://www.youtube.com/channel/UCGSKVTWd67GUbrCmyMQ2h0w"><img src="redesociais/youtube.svg" width="40px" height="40px"></img></a>
+			    <p class="c-contentinfo__copyright" id="fontef"><small>© 2017-2018 - TECHCENTRAL - Todos os direitos reservados </small></p>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

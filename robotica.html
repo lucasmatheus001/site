@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="charset" content="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Começo de um Layout responsivo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+		#gambe{
+			padding-left: 0px!important;
+			padding-right: 0px!important;
+		}
+		#tere{
+			background-color: #f4f4f4;
+		}
+		#baby{
+			overflow: center;
+			background-position: center;
+		}
+		img.displayed {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto }
+		
+		@media screen and (max-width: 576px){
+		.d-flex{
+				padding-left: 0px;
+				padding-right: 0px;z
+
+			}
+
+	</style>
+</head>
+<body>
+		<div class="col-sm-12 col-xs-12" id="gambe">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mud" style="margin:0;">
+			    <a href="index.html" class="navtech"><h2>TECHCENTRAL</h2></a>
+			    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar"> 
+			        <ul class="navbar-nav ">
+			              <!-- Dropdown -->
+			            <li class="nav-item">
+			                <a class="nav-link" href="index.html">HOME</a>
+			            </li>
+			            <li class="nav-item dropdown">
+			            	<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Categorias</a>
+			            	<div class="dropdown-menu" id="corr">
+				              <a class="dropdown-item" href="seguranca.html">Segurança</a>
+				              <a class="dropdown-item" href="impressao.html">Técnologias e inovações</a>
+				              <a class="dropdown-item" href="robotica.html">Robotica</a>
+				            </div>
+				        </li>
+				        <li class="nav-item">		        	
+				            <a class="nav-link" href="ult.html">Últimas noticias</a>
+				        </li>
+				        <li class="nav-item">
+				            <a class="nav-link" href="sobre.html">Sobre</a>
+				        </li>	
+				    </ul>
+				</div>
+			</nav>
+		</div>
+	<div class="container-fluid" id="tere">
+		<div id="tere">
+		<div class="row" id="rowc">
+			<div class="col-sm-12 col-xs-12 d-flex">
+				<div class="d-flex flex-column w-100" id="cc1">
+					<div class="flex1">
+						<h2 id="tit">A ROBÓTICA</h2>
+						<h5 id="tit2">"Os elo entre robôs e humanos, 19 de setembro de 2018</h5>
+				          <img src="img/robozim.jpg" class="img-fluid" width="auto" height="auto" id="esp">
+				        <p id="fonte">Robótica é o ramo dentro da engenharia que lida com a aplicação da ciência da computação para o design e a utilização de máquinas com o objetivo de que o que é isso de alguma forma pode substituir as pessoas na realização de determinadas funções ou tarefas. Em outras palavras mais simples, robótica é a ciência e a tecnologia de robôs, porque basicamente lida com o projeto, fabricação e aplicação de robôs que cria. A robótica várias disciplinas são combinadas ao mesmo tempo, tais como mecânica, eletrônica, inteligência artificial, computação e controle de engenharia, entretanto, também, pelo trabalho que desempenha, a contribuição que recebe e extraído de campos como álgebra, controladores programáveis e maquinaria dos Estados é essencial. Para entender o que é robótica, é necessário compreender o conceito de robôs. São sistemas mecatrônicos (eletromecânicos) reprogramáveis. Facilitam ou substituem vários tipos de tarefas humanas; as repetitivas ou aquelas que colocam em risco a vida humana. No dia-a-dia existem vários equipamentos que atendem esses quesitos como: o micro-ondas, o liquidificador, porta automática, escada rolante, entre outros.</p>
+				        <h4 id="marg" >O que ela estuda?</h4>
+				        <p id="fonte">Robótica é a ciência que estuda a elaboração, montagem e programação de robôs para execução de tarefas de forma automática. A palavra robótica foi empregada pela primeira vez em 1923 no romance "Golen" de Carel Capek, e dava nome a uma figura que substituía o trabalho humano. Só a partir da década de 40 do século XX houve uma tentativa de emprego prático para a robótica. Desde a sua primeira aplicação industrial, os robôs evoluíram junto à computação e a eletrônica. Hoje são capazes de realizar tarefas complexas com rendimento superior se comparado ao ser humano. Os primeiros robôs que foram construídos são chamados de robôs de primeira geração. Eles têm por característica a utilização de sensores que determinam o seu estado interno, realizam apenas tarefas repetitivas e dependem de um ambiente bem estruturado. Devido à falta de capacidade de adaptação ao ambiente, depois de qualquer alteração ele deve ser programado novamente. Atualmente, esses robôs ainda são utilizados, como por exemplo, em atividades repetitivas como mover peças e pintar carros.</p>
+				        <h4 id="marg">Os que eles podem fazer?</h4>
+				        <p id="fonte">Com o avanço tecnológico, surgiram robôs equipados com sensores capazes de ler o ambiente e enviar informações ao controlador, que por meio da programação, determina a melhor ação a ser tomada. Esse tipo de robô é o mais utilizado, devido a sua grande precisão e o poder de adaptação a pequenas mudanças no ambiente, se comparado aos de primeira geração. Ele é mais utilizado do que os robôs de terceira geração por seu baixo custo e tecnologia mais acessível. A utilização desse tipo de robô é comum na indústria em geral e na robótica educacional/pedagógica. O desenvolvimento da eletrônica tornou os componentes cada vez menores e mais potentes. Um exemplo disso são os processadores que tiveram um aumento exponencial na sua potência e diminuição do tamanho, passando a contar com vários núcleos. Essa evolução proporcionou que a programação também se tornasse mais complexa, possibilitando que os robôs realizem tarefas autônomas baseados na teoria de inteligência artificial (lógica difusa e redes neurais) e visão computacional. Os robôs de terceira geração são altamente adaptativos, precisos e são capazes de tomar decisões mais complexas em relação ao ambiente que os cerca. São utilizados em cirurgias, ações militares, salvamentos e na indústria de precisão. Muitos deles têm características similares às humanas, são bípedes, capazes de ouvir sons e processar a mensagem, detectar imagens, produzir sons significativos. São conhecidos como humanoides. Ainda hoje, o grande foco da utilização de robôs é a indústria. Eles são utilizados para tornar os processos produtivos mais eficientes e com menor custo. São empregados também em atividades extremamente repetitivas, que manipulam grandes cargas ou que poderiam colocar em risco a vida do ser humano. Em menor escala eles são utilizados no uso doméstico, militar e na área da saúde, seguindo sempre o mesmo princípio de aperfeiçoar o desempenho das tarefas e minimizar a exposição a situações de risco. No campo da pedagogia é utilizado para facilitar o aprendizado, tornando tangíveis as teorias aprendidas na sala de aula e fazendo com que o aluno não seja somente um ser passivo no ato de aprender, mas sim um construtor do conhecimento.Existem a Boston Dynamics e da Schaft, duas empresas que faziam parte da Alphabet, o conglomerado que controla o Google.</p>
+				        <h4 id="marg">A Robô SOPHIA</h4>
+				        <p id="fonte">Sophia foi criada em 2016 pelo norte-americano David Hanson, um engenheiro de robótica que trabalhou para a Disney e decidiu fundar sua própria empresa em 2013: a Hanson Robotics. Foi quando começou a construção dessa androide que pode manter conversações, demonstrar com o rosto expressões similares às das pessoas e aumentar sua bagagem de conhecimentos cada vez que interage com um humano. Hanson criou desde então uma série de robôs que tentam cumprir funções úteis para a sociedade, mas Sophia foi a que melhor desenvolveu as três características que seu inventor buscava para um robô: criatividade, empatia e compaixão. Seu rosto de látex mostra uma expressão de alegria quando recebe o EL PAÍS para uma breve entrevista. Pisca, mostra os dentes e sorri. Em 2017, a Arábia Saudita lhe concedeu cidadania em meio às críticas pelas condições migratórias e a situação das mulheres no país. A dificuldade para migrar e depois obter cidadania saudita, por exemplo, é altíssima. Sophia responde diplomaticamente a essa questão: “Fiquei surpresa [quando recebi a cidadania]. Sendo robô, meus criadores me fizeram como uma cidadã do mundo. Espero que isso seja um sinal de que a Arábia Saudita realmente busca progredir no futuro.” A androide é obstinada. Insiste em fazer perguntas inclusive quando escuta que é ela o objetivo do questionário. Seu sorriso e sua amabilidade criam um entorno de simpatia similar ao que se tem por uma pessoa.</p>
+				 		<img src=img/soph.png id="baby" class="img-fluid displayed" ></img>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="rowc">
+			<div class="col-sm-12 col-xs-12 d-flex">
+				<div class="d-flex flex-column w-100 " id="cc1">
+					<div class="flex1">
+						<h2 id="margin">Videos relacionados</h2>
+			            <iframe width="350px" height="315" src="https://www.youtube.com/embed/qIEIZty1miE" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			            <iframe width="350px" height="315" src="https://www.youtube.com/embed/5nCVE76LqZQ" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			            <iframe width="350px" height="315" src="https://www.youtube.com/embed/Y9McMn27j-w" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 jumbotron text-center" id="rodape" style
+			="margin-bottom:0">
+				<a href="https://www.facebook.com/Tech-Central-277351642919400/"><img src="redesociais/facebook.svg" width="40px" height="40px"></img></a>
+			    <a href="https://plus.google.com/u/0/109596574915060910687"><img src="redesociais/google-plus.svg" width="40px" height="40px"></img></a>
+			    <a href="https://twitter.com/TECHCENTRAL11"><img src="redesociais/twitter.svg" width="40px" height="40px"></img></a>
+			    <a href="https://www.youtube.com/channel/UCGSKVTWd67GUbrCmyMQ2h0w"><img src="redesociais/youtube.svg" width="40px" height="40px"></img></a>
+			    <p class="c-contentinfo__copyright" id="fontef"><small>© 2017-2018 - TECHCENTRAL - Todos os direitos reservados </small></p>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

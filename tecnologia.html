@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="charset" content="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Começo de um Layout responsivo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+		#gambe{
+			padding-left: 0px!important;
+			padding-right: 0px!important;
+		}
+		#tere{
+			background-color: #f4f4f4;
+		}
+		
+		@media screen and (max-width: 576px){
+		.d-flex{
+				padding-left: 0px;
+				padding-right: 0px;z
+			}
+
+	</style>
+</head>
+<body>
+		<div class="col-sm-12 col-xs-12" id="gambe">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mud" style="margin:0;">
+			    <a href="index.html" class="navtech"><h2>TECHCENTRAL</h2></a>
+			    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar"> 
+			        <ul class="navbar-nav ">
+			              <!-- Dropdown -->
+			            <li class="nav-item">
+			                <a class="nav-link" href="index.html">HOME</a>
+			            </li>
+			            <li class="nav-item dropdown">
+			            	<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Categorias</a>
+			            	<div class="dropdown-menu" id="corr">
+				              <a class="dropdown-item" href="seguranca.html">Segurança</a>
+				              <a class="dropdown-item" href="impressao.html">Técnologias e inovações</a>
+				              <a class="dropdown-item" href="robotica.html">Robotica</a>
+				            </div>
+				        </li>
+				        <li class="nav-item">		        	
+				            <a class="nav-link" href="ult.html">Últimas noticias</a>
+				        </li>
+				        <li class="nav-item">
+				            <a class="nav-link" href="sobre.html">Sobre</a>
+				        </li>	
+				    </ul>
+				</div>
+			</nav>
+		</div>
+	<div class="container-fluid" id="tere">
+		<div class="row" id="rowc">
+			<div class="col-sm-12 col-xs-12 d-flex">
+				<div class="d-flex flex-column w-100" id="cc1">
+					<div class="flex1">
+						<h3 id="tit">OS AVANÇOS DA INTELIGÊNCIA ARTIFICIAL</h3>
+						<h5 id="tit2">O MUNDO GLOBALIZADO, 15 de setembro de 2018</h5>
+				          <img src="img/int.jpg" class="img-fluid" width="auto" height="auto" id="esp">
+				        <p id="fonte">A inteligência artificial é um ramo da informática que visa criar máquinas inteligentes.Tornou-se uma parte essencial do setor de tecnologia. A pesquisa associada à inteligência artificial é altamente técnica e especializada. Inclui a programação de computadores para determinados traços, tais como conhecimento, raciocínio, solução de problemas, percepção, aprendizagem, planejamento, capacidade de manipular e mover objetos. Resumindo, uma máquina programada para utilizar a inteligência artificial tem a capacidade de decidir entre opções pré-estabelecidas, qual é a melhor. Assim, é possível dizer que a máquina “aprende” na medida em que o banco de dados cresce, o que torna as decisões cada vez mais complexas.</p>
+				        <h4 id="marg" >Aplicações da inteligência artificial no mercado</h4>
+				        <p id="fonte">As máquinas não assumiram o controle. Ainda não, pelo menos. No entanto, estão se infiltrando em nossas vidas, afetando a forma como vivemos,trabalhamos e nos divertimos. Desde assistentes pessoais movidos a voz como Siri e Alexa, até tecnologias mais subjacentes e fundamentais, como algoritmos comportamentais, buscas sugestivas e veículos autônomos utilizam poderosos recursos de inteligência artificial. Hoje, gigantes como o Google, a Microsoft e a IBM são altamente envolvidas no estudo do desenvolvimento da tecnologia que já começou a trazer uma mudança revolucionária. As indústrias foram as primeiras empresas a utilizar a inteligência artificial. As peças robóticas são usadas nas fábricas para montar peças diferentes e, em seguida, embalá-las sem precisar de ajuda manual. Desde as matérias-primas aos produtos finais expedidos, os robôs desempenham um papel iminente na maioria das fábricas.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row" id="rowc">
+			<div class="col-sm-12 col-xs-12 d-flex">
+				<div class="d-flex flex-column w-100 " id="cc1">
+					<div class="flex1">
+						<h2 id="margin">Videos relacionados</h2>
+			            <iframe width="350" height="300" id="dist" src="https://www.youtube.com/embed/m0Sev5UhmvE" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			            <iframe width="350" height="300" src="https://www.youtube.com/embed/-Bm5QKcRGWo" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			            <iframe width="350" height="300" src="https://www.youtube.com/embed/SExNhHaHTlk" class="img-fluid" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 jumbotron text-center" id="rodape" style
+			="margin-bottom:0">
+				<a href="https://www.facebook.com/Tech-Central-277351642919400/"><img src="redesociais/facebook.svg" width="40px" height="40px"></img></a>
+			    <a href="https://plus.google.com/u/0/109596574915060910687"><img src="redesociais/google-plus.svg" width="40px" height="40px"></img></a>
+			    <a href="https://twitter.com/TECHCENTRAL11"><img src="redesociais/twitter.svg" width="40px" height="40px"></img></a>
+			    <a href="https://www.youtube.com/channel/UCGSKVTWd67GUbrCmyMQ2h0w"><img src="redesociais/youtube.svg" width="40px" height="40px"></img></a>
+			    <p class="c-contentinfo__copyright" id="fontef"><small>© 2017-2018 - TECHCENTRAL - Todos os direitos reservados </small></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

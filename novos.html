@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="charset" content="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Começo de um Layout responsivo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+		#gambe{
+			padding-left: 0px!important;
+			padding-right: 0px!important;
+		}
+	</style>
+</head>
+<body>
+		<div class="col-xl-12 col-lg-block" id="gambe">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mud" style="margin:0;">
+			    <a href="index.html" class="navtech"><h2>TECHCENTRAL</h2></a>
+			    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapSse navbar-collapse  justify-content-center" id="collapsibleNavbar"> 
+			        <ul class="navbar-nav ">
+			              <!-- Dropdown -->
+			            <li class="nav-item">
+			                <a class="nav-link" href="index.html">HOME</a>
+			            </li>
+			            <li class="nav-item dropdown">
+			            	<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Categorias</a>
+			            	<div class="dropdown-menu" id="corr">
+				              <a class="dropdown-item" href="seguranca.html">Segurança</a>
+				              <a class="dropdown-item" href="tec.html">Técnologias e inovações</a>
+				              <a class="dropdown-item" href="robotica.html">Robotica</a>
+				            </div>
+				        </li>
+				        <li class="nav-item">		        	
+				            <a class="nav-link" href="ult.html">Últimas noticias</a>
+				        </li>
+
+				        <li class="nav-item">
+				            <a class="nav-link" href="sobre.html">Sobre</a>
+				        </li>
+				    </ul>
+				</div>
+			</nav>
+		</div>
+		<div class="container-fluid">
+		<div class="row" id="rowConteudo">
+			<div class="col-sm-7 col-xs-12 d-flex">
+				<div class="d-flex flex-column w-100" id="c1">
+					<div class="flex1">
+						<h3 id="titulo">MAIOR VELOCIDADE E CONTATO EM TEMPO REAL </h3>
+						<h5 id="titulo2">O PODER DO 5G - 14 DE JULHO DE  2018</h5>
+				          <img src="img/dds.jpg" class="img-fluid" width="auto" height="auto">
+				        <p id="fonte">A Mobile World Congress é palco de apresentações de smartphones de última geração, planos futuros de grandes empresas de telecomunicações e novidades em tecnologias que estão onipresentes na nossa rotina. Entretanto, o tema que mais insistia em aparecer em Barcelona era o 5G: uma única olhada para o lado era suficiente para encontrar algum estande com o termo 5G piscando na minha cara. O 5G está definido para ser a quinta geração de banda larga sem fio padronizada em larga escala. Para expressar isso de forma um pouco mais flexível, é o que conectará seu smartphone e outros dispositivos inteligentes à Internet quando você não estiver usando o Wi-Fi no futuro.</p>
+				        <div class="postagens"></div>
+					</div>
+					<div class="flex1">
+						<h3 id="titulo">O AVANÇO PROMISSOR DAS NOVAS TECNOLÓGIAS</h3>
+				        <h5 id="titulo2">O MUNDO GLOBALIZADO - 12 de Julho de 2018</h5>
+				        <img src=img/int.jpg class="img-fluid" width="auto" heigth="auto"></img>
+				        <p id="fonte" >Inteligência artificial (por vezes mencionada pela sigla em português IA ou pela sigla em inglês AI - artificial intelligence) é a inteligência similar à humana exibida por mecanismos ou software. Também é um campo de estudo acadêmico. Os principais pesquisadores e livros didáticos definem o campo como "o estudo e projeto de agentes inteligentes", onde um agente inteligente é um sistema que percebe seu ambiente e toma atitudes que maximizam suas chances de sucesso.</p>
+				        <br>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4  d-flex">
+				<div class="d-flex flex-column w-100" id="c2">
+					<h2 id="tt1">Mais populares</h2>
+					<div class="flex1">
+						<h5 id="t1">O que é segurança de rede?</h5>
+          				<img src=img/bin.jpg class="img-fluid" width="auto" heigth="auto"></img>
+          				<p id="t2">Você está realmente seguro?</p></a>
+        				<div class="postagens"></div>
+        				<br>
+					</div>
+					<div class="flex1">
+						<h5 id="t1">Alteração do DNA Humano</h5>
+          				<img src=img/dds.jpg class="img-fluid" width="auto" heigth="auto"></img>
+       					<p id="fonte">É possivel mudar as características hereditarias do código genetico?</p></a>
+        				<div class="postagens"></div>
+        				<br>
+					</div>
+					<div class="flex1">
+						<h5 id="t1">Impressora 3D</h5>
+          				<img src=img/imp.jpg class="img-fluid" width="auto" heigth="auto"></img>
+        				<p id="fonte">O que uma impressora 3D pode produzir?</p></a>
+        				<div class="postagens"></div>
+					</div>
+					<div class="flex1">
+						<h5 id="t1">Realidade Aumentada</h5>
+          				<img src=img/realidade1.jpg class="img-fluid" width="auto" heigth="auto"></img>
+        				<p id="fonte">O que esperar desse novo mundo que vem surgindo?</p></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 jumbotron text-center" id="rodape" style
+			="margin-bottom:0">
+				<a href="https://www.facebook.com/Tech-Central-277351642919400/"><img src="redesociais/facebook.svg" width="40px" height="40px"></img></a>
+			    <a href="https://plus.google.com/u/0/109596574915060910687"><img src="redesociais/google-plus.svg" width="40px" height="40px"></img></a>
+			    <a href="https://twitter.com/TECHCENTRAL11"><img src="redesociais/twitter.svg" width="40px" height="40px"></img></a>
+			    <a href="https://www.youtube.com/channel/UCGSKVTWd67GUbrCmyMQ2h0w"><img src="redesociais/youtube.svg" width="40px" height="40px"></img></a>
+			    <p class="c-contentinfo__copyright" id="fontef"><small>© 2017-2018 - TECHCENTRAL - Todos os direitos reservados </small></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
